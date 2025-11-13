@@ -20,9 +20,6 @@
 
 ```
 Another-NKUSE-Exams
-├── index.html                      # 主页面
-├── generate-structure.js           # 动态结构生成脚本
-├── package.json                    # 项目配置
 ├── README.md                       # 项目说明
 │
 ├── 📁 软件专业课                   # 专业课资料
@@ -76,46 +73,3 @@ Another-NKUSE-Exams
 > 💡 **温馨提示**：本仓库仅供学习交流使用，请合理使用资源，维护良好的学术环境。
 
 **祝愿所有南开学子学业有成！🎉**
-
----
-
-## 🌐 网站部署
-
-本项目提供了一个基于 GitHub Pages 的在线浏览界面，具有以下功能：
-
-- 📁 **目录树展示** - 支持文件夹展开/收起功能
-- 🔍 **实时搜索** - 快速查找文件和目录
-- 📱 **响应式设计** - 支持移动设备访问
-- ⬇️ **一键下载** - 点击文件直接下载
-
-### 🚀 快速部署
-
-1. **Fork 本仓库**到您的 GitHub 账户
-
-2. **启用 GitHub Pages**：
-
-   - 进入仓库的 Settings → Pages
-   - Source 选择 "GitHub Actions"
-   - 点击 "Save"
-
-3. **配置下载链接**：
-   编辑 `index.html` 文件，将其中的 `njdldkl666699` 替换为您的 GitHub 用户名
-
-4. **访问网站**：
-   访问 `https://YOUR_USERNAME.github.io/Another-NKUSE-Exams`
-
-### 🖥️ 本地测试
-
-如需本地测试动态文件结构：
-
-```bash
-npm run dev
-```
-
-### ️ 故障排除
-
-- **动态结构未加载**：确保使用 HTTP 服务器访问，不要直接打开 HTML 文件
-- **文件无法下载**：确保 GitHub 仓库是公开的
-- **本地服务器启动失败**：检查 Node.js 是否正确安装
-
-更多详细信息请参考 [完整部署文档](README-deploy.md)。
